@@ -34,6 +34,7 @@ public class Main {
 					int generaciones = entrada.nextInt();
 					if (generaciones > 0) {
 						crearGeneraciones(tablero, generaciones);
+						break;
 					} else {
 						System.out.println("¡El número de generaciones debe ser superior a 0!");
 						System.out.println("Introduce las generaciones de nuevo:");
